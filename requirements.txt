@@ -20,7 +20,6 @@ gast==0.2.0
 gensim==3.6.0
 grpcio==1.12.1
 h5py==2.8.0
-h5pyViewer==0.0.1.6
 html5lib==0.9999999
 idna==2.7
 jmespath==0.9.3
