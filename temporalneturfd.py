@@ -26,15 +26,15 @@ from keras.layers.advanced_activations import ELU
 os.environ["CUDA_VISIBLE_DEVICES"]="1"
 
 # CHANGE THESE VARIABLES ---
-data_folder = '/home/anunez/URFD_opticalflow/'
-mean_file = '/home/anunez/flow_mean.mat'
+data_folder = './URFD_opticalflow/'
+mean_file = './flow_mean.mat'
 vgg_16_weights = 'weights.h5'
 save_features = False
 save_plots = True
 
 # Set to 'True' if you want to restore a previous trained models
 # Training is skipped and test is done
-use_checkpoint = False # Set to True or False
+use_checkpoint = True # Set to True or False
 # --------------------------
 
 best_model_path = 'models/'
